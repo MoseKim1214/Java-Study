@@ -12,4 +12,9 @@
 	  
 	  
   </properties>
+  <modules>
+  	<module>Ch.1</module>
+  	<module>Ch1</module>
+  	<module>chapter01</module>
+  </modules>
 </project>
