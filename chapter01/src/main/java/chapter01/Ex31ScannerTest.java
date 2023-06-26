@@ -21,7 +21,7 @@ public class Ex31ScannerTest {
 		int countStock = scanner.nextInt();
 		
 		System.out.println(name+price + countStock);
-		
+		scanner.close();
 	}
 
 }
