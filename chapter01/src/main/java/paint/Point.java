@@ -1,4 +1,4 @@
-package chapter03;
+package paint;
 
 public class Point {
 	private int x;
@@ -8,6 +8,13 @@ public class Point {
 		x = 0;
 		y = 0;
 	}
+	
+	public Point(int x, int y) {
+		// TODO Auto-generated constructor stub
+		this.x = x;
+		this.y = y;
+	}
+
 	public int getX() {
 		return x;
 	}

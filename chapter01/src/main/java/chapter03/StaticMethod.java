@@ -23,7 +23,7 @@ public class StaticMethod {
 	
 	static void s1() {
 		//오류 : static method에서는 인스턴스 변수에 접근할 수 없다.
-		System.out.println(n);
+		//System.out.println(n);
 	}
 	
 	

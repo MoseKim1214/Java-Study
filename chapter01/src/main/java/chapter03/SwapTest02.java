@@ -14,7 +14,7 @@ public class SwapTest02 {
 		swap(a, b);  // 숫자가 바뀌지 않는다. 왜?? 함수 호출 끝나면 스택에서 모두 삭제되므로
 		
 		System.out.println("a:" + a.value);
-		System.out.println("b:" + b.value);000
+		System.out.println("b:" + b.value);
 	}
 	
 	public static void swap(intValue p, intValue q) {
