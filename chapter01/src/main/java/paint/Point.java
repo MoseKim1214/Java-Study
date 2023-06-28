@@ -1,6 +1,6 @@
 package paint;
 
-public class Point {
+public class Point implements Drawable{
 	private int x;
 	private int y;
 	
@@ -40,6 +40,12 @@ public class Point {
 		} else {
 			show();  // 코드가 중복되면 함수로 써서 수정할 곳을 줄여라.
 		}
+	}
+
+	@Override
+	public void draw() {
+		// TODO Auto-generated method stub
+		show();
 	}
 	
 }

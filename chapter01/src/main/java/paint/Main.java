@@ -8,7 +8,8 @@ public class Main {
 		point.setX(100);
 		point.setY(80);
 		
-		drawPoint(point);
+		//drawPoint(point);
+		draw(point);
 		point.show(false);
 		
 //		Point point2 = new ColorPoint();
@@ -22,13 +23,32 @@ public class Main {
 		((ColorPoint)point2).setColor("red");
 		
 
-		drawPoint(point2);
+		//drawPoint(point2);
+		draw(point2);
+		
+		Rectangle rectangle = new Rectangle();
+		//drawShape(rectangle);
+		draw(rectangle);
+		
+		Circle circle = new Circle();
+		//drawShape(circle); 
+		draw(circle);
+	}
+	
+	public static void draw(Drawable drawable) {
+		drawable.draw();
 	}
 	
 	public static void drawPoint(Point point) {
 		point.show();
 	}
 	
+//	public static void drawShape(Shape shape) {
+//		shape.draw();
+//	}
+//	public static void drawRectangle(Rectangle rectangle) {
+//		rectangle.draw();
+//	}
 	
 	//부모로 참조할 수 있어야하기 때문에 이러면 털림
 //	public static void drawColorPoint(ColorPoint colorPoint) {
