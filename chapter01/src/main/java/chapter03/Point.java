@@ -26,4 +26,13 @@ public class Point {
 		
 		
 	}
+	public void show(boolean visible) {
+		if(!visible) {
+		System.out.println("점[x="+x+", y="+y+"]을 지웠습니다.");
+	
+		} else {
+			show();  // 코드가 중복되면 함수로 써서 수정할 곳을 줄여라.
+		}
+	}
+	
 }

@@ -9,6 +9,7 @@ public class Main {
 		point.setY(80);
 		
 		drawPoint(point);
+		point.show(false);
 	}
 	
 	public static void drawPoint(Point point) {

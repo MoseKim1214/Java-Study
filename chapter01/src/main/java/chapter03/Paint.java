@@ -1,5 +1,5 @@
 package chapter03;
 
-public class paint {
+public class Paint {
 
 }
