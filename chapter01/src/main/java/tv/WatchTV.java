@@ -22,6 +22,7 @@ public class WatchTV {
          tv.status();
 
          tv.power( false );
+         tv.channel( true);
          tv.status();      		          
      }
 
