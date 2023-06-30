@@ -1,6 +1,10 @@
 package com.bitacademy.paint.point;
 
 public class ColorPoint extends Point {
+	
+
+	
+
 	private String color;
 
 	public ColorPoint(int x, int y, String color) {
@@ -24,6 +28,11 @@ public class ColorPoint extends Point {
 		// TODO Auto-generated method stub
 		System.out.println("점[x="+getX()+", y="+getY()+
 				", color=" + color +"]을 그렸습니다.");
+	}
+
+	@Override
+	public String toString() {
+		return "ColorPoint [color=" + color + ", " + super.toString() + "]";
 	}
 	
 	

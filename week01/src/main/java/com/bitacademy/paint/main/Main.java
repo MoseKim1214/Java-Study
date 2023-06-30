@@ -33,6 +33,10 @@ public class Main {
 		//drawPoint(point2);
 		draw(point2);
 		
+		System.out.println(point2.toString());
+		
+		
+		
 		Rectangle rectangle = new Rectangle();
 		//drawShape(rectangle);
 		draw(rectangle);

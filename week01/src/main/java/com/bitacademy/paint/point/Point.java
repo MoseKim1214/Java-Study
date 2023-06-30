@@ -3,6 +3,9 @@ package com.bitacademy.paint.point;
 import com.bitacademy.paint.i.Drawable;
 
 public class Point implements Drawable{
+	
+	
+
 	private int x;
 	private int y;
 	
@@ -48,6 +51,11 @@ public class Point implements Drawable{
 	public void draw() {
 		// TODO Auto-generated method stub
 		show();
+	}
+
+	@Override
+	public String toString() {
+		return "Point [x=" + x + ", y=" + y + "]";
 	}
 	
 }
