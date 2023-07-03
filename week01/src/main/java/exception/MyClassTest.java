@@ -11,8 +11,9 @@ public class MyClassTest {
 			myClass.danger();
 		} catch (MyException e) {
 			// TODO Auto-generated catch block
-			e.msg();
+			System.out.println(e);
 		}
+		
 	}
 
 }
